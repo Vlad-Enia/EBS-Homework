@@ -52,8 +52,8 @@ The experiments were ran on a machine with the following specifications:
 
 | Processes \\ no. of pub and sub | 10                 | 100                 | 1000               | 10000             |
 |---------------------------------|--------------------|---------------------|--------------------|-------------------|
-| 1                               | 0.394              | 0.437               | 0.936              | 5.961             |
-| 2                               | 0.435              | 0.485               | 0.896              | 4.917             |
+| 1                               | 0.394s             | 0.437s              | 0.936s             | 5.961s            |
+| 2                               | 0.435s             | 0.485s              | 0.896s             | 4.917s            |
 
 <p align="center">
   <img src="img/results.png" alt="results">
