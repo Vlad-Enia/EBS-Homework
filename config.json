@@ -1,0 +1,29 @@
+{
+    "publications": 10000,
+    "subscriptions": 10000,
+    "constraints": [
+        {
+            "type": "frequency",
+            "field": "temperature",
+            "percent": "=80"
+        },
+        {
+            "type": "frequency",
+            "field": "stationid",
+            "percent": "=70"
+        },
+        {
+            "type": "operator",
+            "field": "temperature",
+            "operator": ">",
+            "percent": "=80"
+        },
+        {
+            "type": "operator",
+            "field": "stationid",
+            "operator": "<",
+            "percent": "=20"
+        }
+    ],
+    "threads": 1
+}
